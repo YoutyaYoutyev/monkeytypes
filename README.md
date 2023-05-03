@@ -1,5 +1,6 @@
 # monkeytypes :D
 ![monkeytype logo](https://typingstats.com/partners/monkeytype.png)
+
 🐵 telegram bot to track monkeytype.com stats
 
 🛠 currently in development
