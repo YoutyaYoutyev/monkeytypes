@@ -85,7 +85,7 @@ def spam(message):
 
     except Exception as e:
 
-        bot.send_message(message.chat.id, 'Что-то пошло не так.')
+        bot.send_message(message.chat.id, 'Something gone wrong.')
 
         logging.error("error > " + str(e))
 
