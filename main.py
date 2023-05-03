@@ -77,12 +77,8 @@ def spam(message):
 
             sendlist = c.execute('SELECT id FROM users').fetchall()
 
-            try:
-                for i in sendlist:
-                    bot.send_message(i[0], message.text[5:], parse_mode='HTML')
-
-            except Exception:
-                pass
+            for i in sendlist:
+                bot.send_message(i[0], message.text[5:], parse_mode='HTML')
 
         else:
             bot.send_message(message.chat.id, 'Not enough rights to execute :)')
